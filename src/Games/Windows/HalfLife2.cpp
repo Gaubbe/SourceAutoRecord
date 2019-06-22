@@ -81,6 +81,7 @@ void HalfLife2::LoadOffsets()
 
     // server.dll
 
+    ProcessMovement = 1; // CGameMovement
     PlayerMove = 13; // CGameMovement
     CheckJumpButton = 29; // CGameMovement
     FullTossMove = 30; // CGameMovement
